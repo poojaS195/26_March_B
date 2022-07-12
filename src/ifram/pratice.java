@@ -26,6 +26,7 @@ public class pratice {
         driver.findElement(By.id("latinchbx")).click();
         driver.findElement(By.id("frenchchbx")).click();
         driver.findElement(By.id("email")).sendKeys("pooja123@gmail.com");
+    	System.out.println("hiii this is pooja");
 
 
 	}
