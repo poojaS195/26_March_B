@@ -14,6 +14,7 @@ public class Test {
 	       Thread.sleep(1000);
 	       driver.switchTo().frame("iframeResult");
 	       driver.findElement(By.xpath("//button[@type='button']")).click();
+	System.out.println("hiii this is pooja");
 	}
 
 }
