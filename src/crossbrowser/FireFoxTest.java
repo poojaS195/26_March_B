@@ -1,0 +1,18 @@
+package crossbrowser;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class FireFoxTest {
+  @Test
+  public void mymethod() {
+	  
+	  System.setProperty("webdriver.chrome.driver","E:\\installable\\geckodriver\\geckodriver.exe" );
+      WebDriver driver=new FirefoxDriver();
+      driver.manage().window().maximize();
+      driver.get("https://kite.zerodha.com/");
+	  
+  }
+}
